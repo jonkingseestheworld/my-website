@@ -1,7 +1,71 @@
 /* My Styles */
 
-body {font-family: Arial, sans-serif; color: Navy; font-size: 16px; padding-top: 20px; padding-bottom: 40px; margin: 40px; }
+body {font-family: Helvetica, Arial, sans-serif; color: Navy; font-size: 16px; margin-left: 40px; margin-right:40px;}
+
+a { text-decoration: none; }
+
 
 header {
-    border-bottom: 2px solid #000000;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	padding: 10px;
+    border-bottom: 1px solid #000000;
 }
+
+
+.topnav { font-size: 26px;
+	overflow: hidden;
+	font-weight: 100;
+}
+
+.topnav a {
+	float: left; text-decoration: none; padding: 10px; color: navy;
+}
+ 
+/*  
+nav { font-size: 22px; }
+*/
+
+
+.topnav a.active {
+  	color: dark grey;
+}
+
+.topnav a:hover {
+	color: blue;
+}
+
+.topnav-right {	
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+}
+
+.topnav-right a { 
+	padding: 10px; font-size: 20px; color: #428bca; border-radius: 5px;
+}
+
+.topnav-right a:hover {
+	background-color: #ddd; color: #428bca; 
+}
+
+
+/* nav li {  float: right; }
+
+nav li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;}   */
+
+/* nav li a:hover { backgroun-color: #111; } */
+
+/*problem with the margin/padding here */
+.self-prom { clear: both; margin-top: 50px; margin-bottom:50px;}
+
+.title {
+	text-align: center;
+	font-size: 22px;
+}
+
+
+footer { padding: 10px; text-align: right; border-top: 1px solid #000000;
+ }
