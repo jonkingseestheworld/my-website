@@ -1,6 +1,6 @@
 /* My Styles */
 
-body {font-family: Helvetica, Arial, sans-serif; color: Navy; font-size: 16px; margin-left: 40px; margin-right:40px;}
+body {font-family: Helvetica, Arial, sans-serif; color: Navy; font-size: 18px; margin-left: 40px; margin-right:40px;}
 
 a { text-decoration: none; }
 
@@ -18,7 +18,7 @@ header {
 }
 
 .topnav a {
-	float: left; text-decoration: none; padding: 10px; color: navy;
+	float: left; text-decoration: none; padding: 10px; color: #404040;
 }
  
 /*  
@@ -63,7 +63,18 @@ nav li a {
 
 .title {
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px; 
+	font-weight: bold;
+}
+
+.img-circle-avatar {
+	height: 200px; 
+	margin-left: auto; 
+	margin-right: 25px; 
+	margin-top: 10px;
+	margin-bottom: 15px;
+	float: left; 
+	border-radius: 50%;
 }
 
 
