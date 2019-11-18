@@ -7,9 +7,11 @@
     <meta name="author" content="Johnny King Lau">
     <title> Johnny Lau | Home </title> 
     
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-  
+    <link rel="stylesheet" href="css/reset.css" >
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="stylesheet" href="css/css/academicons.min.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
+
   </head>
 
   <body>
@@ -19,7 +21,7 @@
       <container> 
         
         <nav class="topnav"> 
-          <a class="active" href="index.html" title="HOME"> <span style="font-weight: bold;">JOHNNY KING </span>
+          <a href="index.html" title="HOME"> <span style="font-weight: bold;">JOHNNY KING </span>
             LAU <!--span lang="zh-Hant">景</span --> </a>
           <a><img class="name-charact" alt="k-aracter" src="img/king_character.png" style="height: 30px;"></a>
 
@@ -27,10 +29,10 @@
 
           <div class="topnav-right">
           <!-- ul-->
-             <a href="about.html" title="About me"> ABOUT </a> 
+             <a class="active" href="index.html" title="Home"> HOME </a> 
+             <a href="bio.html" title="About me"> BIO </a> 
              <a href="cv.html"> CV </a> 
              <a href="projects.html"> PROJECTS </a> 
-             <a href="contact.html" title="Get in touch&hellip;"> CONTACT </a> 
           </div>
           <!--/ul-->
         </nav>
@@ -41,33 +43,65 @@
 
   
     <div class="self-prom">
-        <p class="title"> Cognitive Neuroscientist // Programming Enthusiast // Data Analyst </p>
+        <h2 class="title" style="color: #116802"> Cognitive Neuroscientist // Programming Enthusiast // Data Analyst </h2>
 
 
-        <p><img class="img-circle-avatar" alt="jkl working" src="img/jkl_work.jpg" ></p>
+        <container>
+
+
+          <img class="img-circle-avatar" alt="jkl working" src="img/jkl_work.jpg" >
     
-        <p class="intro-1stline" style="font-size: 24px;"> 
-        Hi there, thanks for visiting my page. I am Johnny Lau and I am passionate about using an experimental testing and data-driven approach to address real-life questions.
-        </p>
+          <div class="self-intro">
+            <p class="intro-1stline" style="font-size: 22px;"> 
+            Hi there, thanks for visiting my page. I am Johnny Lau and I am passionate about using an experimental testing and data-driven approach to address real-life questions.
+            </p>
 
-        <p>
-        I am currently a postdoc research fellow at the Motivation Science Lab of the University of Reading. My research is primarily concerned with understanding how decisions are made and motivated. 
-        </p>
+            <p>
+            I am currently a postdoc research fellow at the Motivation Science Lab of the University of Reading, UK. My research is primarily concerned with understanding how decisions are made and motivated. 
+            </p>
 
-        <p>
-        My work uses a combination of experimental investigation, statistical model testing and neuroimaging to examine the neurobiological mechanism underlying how intrinsic motivation (like curiosity) biases us in making risky decisions. I also have experience in applying a multivariate pattern recognition approach (incorporated with machine learning algorithm) on the analysis of brain imaging data to predict choice behaviours.
-        </p>
+            <p>
+            My work uses a combination of experimental investigation, statistical model testing and neuroimaging to examine the neurobiological mechanism underlying how intrinsic motivation (like curiosity) biases us in making risky decisions. I also have experience in applying a multivariate pattern recognition approach (incorporated with machine learning algorithm) on the analysis of brain imaging data to predict choice behaviours.
+            </p>
+          </div>
 
-
-        <p> <i>
-        In classic and religious literature, there are anecdotal tales like Pandora's box, Eve and the forbidden fruit, Eurydice in the Underworld, in which the characters fell for the seductive power of curiosity and made decisions that brought negative consequences. In everyday life, there are times our curiosity in knowing something loses us in the sea of information online, delaying our time and effort to work towards assignment deadlines at work or at school.
-        </i></p>
+        </container>
 
     </div>
 
 
     <footer>
-      Last updated on Oct 20th, MMXIX &copy; JKL 
+      
+
+      <container> 
+        
+        <nav class="footerinfo"> 
+          <p> Last updated on Oct 20th  &copy; JOHNNY K LAU MMXIX </p>
+
+
+
+          <div class="foot-right">
+            <a style="color:#404040; border-bottom: none;" href="index.html"><i class="fa fa-home"></i></a>
+
+            <a style="color:#404040; border-bottom: none;" href="mailto:johnnykinglau@gmail.com" title="johnnykinglau@gmail.com"><i class="fa fa-envelope"></i></a>
+
+
+
+            <a style="color:#404040; border-bottom: none;" href="https://www.linkedin.com/in/johnnykinglau/"><i class="fa fa-linkedin"></i></a>
+
+            <a style="color:#404040; border-bottom: none;" href="https://github.com/jonkingseestheworld"><i class="fa fa-github"></i></a>
+
+            <a style="color:#404040; border-bottom: none; " href="https://google.com">
+              <i class="ai ai-orcid"></i></a>
+
+            <a style="color:#404040; border-bottom: none; " href="https://google.com">
+              <i class="ai ai-google-scholar"></i></a>
+
+          </div>
+          <!--/ul-->
+        </nav>
+
+      </container>
 
     </footer>
 
