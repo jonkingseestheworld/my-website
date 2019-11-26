@@ -3,7 +3,7 @@
 /*if (document.) */
 
 if (window.screen.width > '1000') {
-document.getElementById("brainstill").innerHTML = "<iframe src='jkl_brain.html' width='85%'' height='330px' bgcolor='red' align='center'>";
+document.getElementById("brainstill").innerHTML = "<iframe src='jkl_brain.html' width='85%'' height='330px' align='center' marginheight='20'>";
 } 
 
 
