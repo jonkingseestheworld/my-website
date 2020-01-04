@@ -70,7 +70,7 @@ nav li a {
 /* nav li a:hover { backgroun-color: #111; } */
 
 /*problem with the margin/padding here */
-.self-prom { clear: both; margin-top: 40px; margin-bottom:40px;}
+.self-prom {clear: both; margin-top: 40px; margin-bottom:40px;}
 
 .title {
 	text-align: center;
@@ -84,7 +84,7 @@ nav li a {
 	margin-left: auto; 
 	margin-right: 30px; 
 	margin-top: 30px;
-	margin-bottom: 100px;
+	margin-bottom: 105px;
 
 	float: left; 
 	border-radius: 50%;
