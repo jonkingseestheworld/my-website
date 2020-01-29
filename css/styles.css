@@ -26,10 +26,6 @@ header {
 .topnav a {
 	float: left; text-decoration: none; padding: 10px; color: #404040;
 }
- 
-/*  
-nav { font-size: 22px; }
-*/
 
 
 .topnav a.active {
@@ -70,7 +66,7 @@ nav li a {
 /* nav li a:hover { backgroun-color: #111; } */
 
 /*problem with the margin/padding here */
-.self-prom {clear: both; margin-top: 40px; margin-bottom:40px;}
+.self-prom {clear: both; margin-top: 30px; margin-bottom:30px;}
 
 .title {
 	text-align: center;
@@ -93,6 +89,76 @@ nav li a {
 .intro-1stline {
 	padding-top: 20px;
 	margin-bottom: 15px;
+}
+
+
+
+.project {
+	text-align: left;
+	font-size: 24px; 
+	font-weight: bold;
+	color: #02786e; margin: 0px 0px 10px;
+}
+
+.sub-project {
+	text-align: left;
+	font-size: 20px; 
+	font-weight: bold;
+	color: #009c8f; margin-top:5px; margin-bottom:5px;
+}
+
+
+table {border-collapse:separate;
+	border-spacing: 0 20px;
+}
+
+tr {
+	text-align:left;
+	font-size: 17px;
+}
+
+td {
+	text-align: left;
+}
+
+.project-items {
+	text-align: top;
+}
+
+.project-items td {
+	min-width: 130px;
+	max-width:160px;
+	min-height: 40px;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.list-group-item a {
+	display: block;
+	min-height: 80px;
+}
+
+.project-items tr td:hover {
+  	background-color: #F0F0F0;  
+  	font-color:#02786e;
+}
+
+
+.list-group-item-heading {
+	color:#02786e;
+	margin: 0px;
+	padding:5px 0px;
+}
+.list-group-item-text {
+	color: #404040;
+	font-size:small;
+	margin: 0px;
+}
+
+.date { 
+	width: 15%;
+	padding: 5px;
+	padding-left: 15px;
 }
 
 
