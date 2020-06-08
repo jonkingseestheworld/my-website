@@ -1,6 +1,6 @@
 /* My Styles */
 
-body {font-family: Helvetica, Arial, sans-serif; color: #404040; 
+body {font-family: Helvetica, Arial, sans-serif; color: #404040; background: #FFFFFF;
 	font-size: 18px; width: 65%; margin-left: auto; margin-right:auto; 
 	min-width:810px; max-width:1000px;}
 
@@ -9,7 +9,10 @@ li {line-height: 1.4;}
 
 
 a { text-decoration: none; }
-
+table a:link {color: #000000;}
+table a:hover {color: #02786e;}
+table a:visited {color: #03c4b4;}
+table a:visited:hover {color: #02786e;}
 
 header {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -79,7 +82,7 @@ nav li a {
 	height: 220px; 
 	margin-left: auto; 
 	margin-right: 30px; 
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-bottom: 110px;
 
 	float: left; 
@@ -92,7 +95,10 @@ nav li a {
 }
 
 
-
+h3.bio_aboutme {
+color: #535353; 
+}
+ 
 .project {
 	text-align: left;
 	font-size: 24px; 
@@ -177,8 +183,8 @@ footer { padding: 20px; text-align: right; border-top: 1px solid #000000;
 }
 
 
-.foot-right a { 
-	font-size: 25px; padding: 0px 10px;
+.foot-right a i { 
+	font-size: 25px; padding: 0px 10px; color:#404040; ;
 }
 
 
@@ -187,3 +193,29 @@ footer { padding: 20px; text-align: right; border-top: 1px solid #000000;
 }
 
 /*padding: 10px; */
+
+
+/*dark-mode: */
+.dark-mode body, 
+.dark-mode h3.bio_aboutme,
+.dark-mode .topnav a {background: #392d2d; color: #FFFFFF; }
+
+.dark-mode img.name-charact {filter: invert(1);}
+
+
+.dark-mode header {border-bottom: 1px solid #E8E8E8;}
+.dark-mode footer {border-top: 1px solid #E8E8E8;}
+
+.dark-mode nav.footerinfo p,
+.dark-mode .foot-right a i {color: #F0F0F0;}
+
+.dark-mode .topnav a:hover,
+.dark-mode .topnav-right a,
+.dark-mode h2.title {color: #FF9966;}
+.dark-mode .foot-right a i:hover {color: #FF9966;}
+
+.dark-mode .topnav-right a:hover {background-color: #554343; color: #FF9966;}
+
+
+
+
