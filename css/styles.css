@@ -2,10 +2,12 @@
 
 body {font-family: Helvetica, Arial, sans-serif; color: #404040; background: #FFFFFF;
 	font-size: 18px; width: 65%; margin-left: auto; margin-right:auto; 
-	min-width:810px; max-width:1000px;}
+	min-width:810px; max-width:1000px; transition: background 1s;}
 
 h1, h2, h3, p {line-height:1.2;}
 li {line-height: 1.4;}
+
+p + h3 {padding-top: 1.5em;}
 
 
 a { text-decoration: none; }
@@ -13,6 +15,13 @@ table a:link {color: #000000;}
 table a:hover {color: #02786e;}
 table a:visited {color: #03c4b4;}
 table a:visited:hover {color: #02786e;}
+
+p a:link {color: #000000;}
+p a:hover {color: #02786e;}
+p a:visited {color: #03c4b4;}
+p a:visited:hover {color: #02786e;}
+
+
 
 header {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -93,6 +102,9 @@ nav li a {
 	padding-top: 20px;
 	margin-bottom: 15px;
 }
+
+
+iframe {border: none;}
 
 
 h3.bio_aboutme {
@@ -195,27 +207,46 @@ footer { padding: 20px; text-align: right; border-top: 1px solid #000000;
 /*padding: 10px; */
 
 
+
+
 /*dark-mode: */
-.dark-mode body, 
+.dark-mode body {background: #392d2d; color: #FFFFFF;} 
 .dark-mode h3.bio_aboutme,
-.dark-mode .topnav a {background: #392d2d; color: #FFFFFF; }
+.dark-mode .topnav a {color: #FFFFFF; }
 
 .dark-mode img.name-charact {filter: invert(1);}
 
 
 .dark-mode header {border-bottom: 1px solid #E8E8E8;}
 .dark-mode footer {border-top: 1px solid #E8E8E8;}
+.dark-mode .list-group-item-text {color: #E8E8E8;}
+
 
 .dark-mode nav.footerinfo p,
 .dark-mode .foot-right a i {color: #F0F0F0;}
 
 .dark-mode .topnav a:hover,
 .dark-mode .topnav-right a,
-.dark-mode h2.title {color: #FF9966;}
+.dark-mode h2.title,
+.dark-mode h2.project,
+.dark-mode h3.sub-project {color: #FF9966;}
+.dark-mode .list-group-item-heading {color: #d16f3f;}
+
 .dark-mode .foot-right a i:hover {color: #FF9966;}
 
 .dark-mode .topnav-right a:hover {background-color: #554343; color: #FF9966;}
 
+.dark-mode .project-items tr td:hover {
+  	background-color: #554343;  
+  	font-color:#E8E8E8;}
 
 
+.dark-mode table a:link {color: #E8E8E8;}
+.dark-mode table a:hover {color: #af591f;}
+.dark-mode table a:visited {color: #FF9966;}
+.dark-mode table a:visited:hover {color: #af591f;}
 
+.dark-mode p a:link {color: #E8E8E8;}
+.dark-mode p a:hover {color: #af591f;}
+.dark-mode p a:visited {color: #FF9966;}
+.dark-mode p a:visited:hover {color: #af591f;}
