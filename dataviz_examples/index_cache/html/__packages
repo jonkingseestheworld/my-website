@@ -1,0 +1,10 @@
+base
+pacman
+ggplot2
+cowplot
+dplyr
+readr
+Matrix
+lme4
+kableExtra
+sjPlot
