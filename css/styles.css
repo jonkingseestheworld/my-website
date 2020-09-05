@@ -2,7 +2,7 @@
 
 body {font-family: Helvetica, Arial, sans-serif; color: #404040; background: #FFFFFF;
 	font-size: 18px; width: 65%; margin-left: auto; margin-right:auto; 
-	min-width:810px; max-width:1000px; transition: background 1s;}
+	min-width: 850px; max-width:1000px; transition: background 1s;}
 
 h1, h2, h3, p {line-height:1.2;}
 li {line-height: 1.4;}
@@ -11,15 +11,15 @@ p + h3 {padding-top: 1.5em;}
 
 
 a { text-decoration: none; }
-table a:link {color: #000000;}
-table a:hover {color: #02786e;}
-table a:visited {color: #03c4b4;}
-table a:visited:hover {color: #02786e;}
+table a:link {color: #046f65;}
+table a:hover {color:  #03c4b4;}    /* #02786e; */
+table a:visited {color: #404040;}
+table a:visited:hover {color:  #03c4b4;}
 
-p a:link {color: #000000;}
-p a:hover {color: #02786e;}
-p a:visited {color: #03c4b4;}
-p a:visited:hover {color: #02786e;}
+p a:link {color: #046f65;}    /* #000000;*/
+p a:hover {color: #03c4b4;}    /*#02786e; */
+p a:visited {color: #404040;}   /*#03c4b4;*/
+p a:visited:hover {color: #03c4b4;}    /* #02786e;*/
 
 
 
@@ -30,7 +30,7 @@ header {
 }
 
 
-.topnav { font-size: 26px;
+.topnav { font-size: 20px;
 	overflow: hidden;
 	font-weight: 100;
 }
@@ -55,7 +55,7 @@ header {
 }
 
 .topnav-right a { 
-	padding: 10px; font-size: 20px; color: #02786e; border-radius: 5px;
+	padding: 10px; font-size: 16px; color: #02786e; border-radius: 5px;
 }
 
 .topnav-right a.active {
@@ -67,6 +67,8 @@ header {
 	background-color: #ddd; color: #02786e; 
 }
 
+
+main {min-height: 25em;}
 
 /* nav li {  float: right; }
 
@@ -82,17 +84,17 @@ nav li a {
 
 .title {
 	text-align: center;
-	font-size: 24px; 
+	font-size: 22px; 
 	font-weight: bold;
-	color: #02786e;
+	color: #02786e; 
 }
 
 .img-circle-avatar {
 	height: 220px; 
 	margin-left: auto; 
 	margin-right: 30px; 
-	margin-top: 50px;
-	margin-bottom: 110px;
+	margin-top: 35px;
+	margin-bottom: 100px;
 
 	float: left; 
 	border-radius: 50%;
@@ -108,7 +110,7 @@ iframe {border: none;}
 
 
 h3.bio_aboutme {
-color: #535353; 
+color: #02786e;     /*#535353; */
 }
  
 .project {
@@ -182,6 +184,7 @@ td {
 }
 
 
+time {font-size: small;}
 
 footer { padding: 20px; text-align: right; border-top: 1px solid #000000; 	
  }
@@ -210,7 +213,7 @@ footer { padding: 20px; text-align: right; border-top: 1px solid #000000;
 
 
 /*dark-mode: */
-.dark-mode body {background: #392d2d; color: #FFFFFF;} 
+.dark-mode body {background: #2A403A; color: #FFFFFF;}  /* #392d2d*/
 .dark-mode h3.bio_aboutme,
 .dark-mode .topnav a {color: #FFFFFF; }
 
@@ -228,25 +231,25 @@ footer { padding: 20px; text-align: right; border-top: 1px solid #000000;
 .dark-mode .topnav a:hover,
 .dark-mode .topnav-right a,
 .dark-mode h2.title,
-.dark-mode h2.project,
-.dark-mode h3.sub-project {color: #FF9966;}
-.dark-mode .list-group-item-heading {color: #d16f3f;}
+.dark-mode h2.project{color: #eaaf07;} /* #FF9966*/
+.dark-mode h3.sub-project {color: #f1df8a;}  
+.dark-mode .list-group-item-heading {color: #f1df8a;}  /* #d16f3f */
 
-.dark-mode .foot-right a i:hover {color: #FF9966;}
+.dark-mode .foot-right a i:hover {color: #eaaf07;}  /* #554343 */
 
-.dark-mode .topnav-right a:hover {background-color: #554343; color: #FF9966;}
+.dark-mode .topnav-right a:hover {background-color: #293127; color: #f1df8a;}  /* #554343 ; color: #FF9966;*/
 
 .dark-mode .project-items tr td:hover {
-  	background-color: #554343;  
+  	background-color: #293127;  /* #554343 */
   	font-color:#E8E8E8;}
 
 
-.dark-mode table a:link {color: #E8E8E8;}
-.dark-mode table a:hover {color: #af591f;}
-.dark-mode table a:visited {color: #FF9966;}
-.dark-mode table a:visited:hover {color: #af591f;}
+.dark-mode table a:link {color: #999a8e;}
+.dark-mode table a:hover {color: #b78906;}  /*#af591f */
+.dark-mode table a:visited {color: #E8E8E8;}  /* #FF9966*/
+.dark-mode table a:visited:hover {color: #b78906;}  /*#af591f */
 
-.dark-mode p a:link {color: #E8E8E8;}
-.dark-mode p a:hover {color: #af591f;}
-.dark-mode p a:visited {color: #FF9966;}
-.dark-mode p a:visited:hover {color: #af591f;}
+.dark-mode p a:link {color: #999a8e;}
+.dark-mode p a:hover {color: #b78906;}   /*#af591f  */
+.dark-mode p a:visited {color: #E8E8E8;}   /* #FF9966*/
+.dark-mode p a:visited:hover {color: #b78906;}  /*#af591f */
