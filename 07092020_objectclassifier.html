@@ -80,7 +80,7 @@
             <p> The results were astounding! The object identifier worked pretty well with previously unseen images. </p>
 
             <p> Here are the outcomes: </p>
-            <a><img alt="2plastic" src="img/classified_outcomes.jpg" style="height: 220px;"></a>
+            <a><img alt="classified" src="img/classified_outcomes.jpg" style="height: 220px;"></a>
 
             
 
@@ -93,18 +93,17 @@
 
             <h3 class="post_subtitle"> Woman, Man, Camera, TV </h3> 
   
-            <p> Simply for fun, I have also built a classifier for identifying Woman, Man, Camera, TV. Remember this video? When the current President of the United States of America claimed that he was cognitively there and he aced a 'difficult' cognitive test which required him to memorise items like Person, Woman, Man, Camera, TV. </p>
-
-            <iframe width="400" height="280" src="https://www.youtube.com/embed/Y3bY6zrkavc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-
-            <p> Or, an edited version of the interview. </p>
+            <p> Remember this video? When the current President of the United States of America claimed that he was 'cognitively there' and he aced a 'difficult' cognitive test which required him to memorise items like Person, Woman, Man, Camera, TV. </p> 
+            
             <iframe width="400" height="280" src="https://www.youtube.com/embed/LhZyHIZpzoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
-            <p> Kudos to JiangHong who came up with this idea originally -- such a genius! I cracked up so much when I first came across this post <a href="#ref2"><sup>2</sup></a>.
+            <p> Simply for fun, I have also built a classifier for identifying Woman, Man, Camera, TV. </p>
 
 
-            <p> And here is my attempt. </p>
+            <p> (Kudos to JiangHong who came up with this idea originally -- such a genius! I cracked up so much when I first came across <a href="https://juejin.im/post/6865609905508876296" target="_blank" style="text-decoration: underline;">this post</a>.)</p>
 
+
+            <p> And here is my attempt: <a href="https://mybinder.org/v2/gh/jonkingseestheworld/WMCTV_voila/master?urlpath=voila%2Frender%2Fwoman_man_camera_tv_voila.ipynb" target="_blank" style="text-decoration: underline;"> "A Woman-Man-Camera-TV Identifier!"</a> </p>
 
             <h3 class="post_subtitle"> My Thoughts, so far </h3>
             <p> Overall, <a href="https://github.com/fastai/fastai" target="_blank" style="text-decoration: underline;">FastAI</a> library is very user friendly. It is easy to use and understand. </p>
@@ -118,7 +117,7 @@
             <p> Deep Learning is not everything. It certainly has limitations. </p>
             <ol>
               <p> 1. Predictions can be largely influenced by the training data. That is, what can be predicted is constrained by the data you put into the model to train. </p>
-              <p> 2). In other words, the model can be biased. When I started developing the 'Woman-Man-Camera-TV' classifier, I realised it constantly mis-identified men wearing caps /head accessories, or women with skin head ... So at the very beginning I had to go back and fro to check to make sure the image set would comprise examples that represent a good diversity of people. (See also the chapter on Data Ethics in FastAI <a href="#ref2"><sup>3</sup></a>) </p>
+              <p> 2). In other words, the model can be biased. When I started developing the 'Woman-Man-Camera-TV' classifier, I realised it constantly mis-identified men wearing caps /head accessories, or women with skin head ... So at the very beginning I had to go back and fro to check to make sure the image set would comprise examples that represent a good diversity of people. (See also the chapter on Data Ethics in FastAI <a href="#ref2"><sup>2</sup></a>) </p>
 
               <p> 3). This is a very simple classifier I built. It treats a whole image as a single entity. So, if you have both plastic bag and jelly fish in the same picture, the classifier may struggle to tell you which one exists. </p>
             </ol>
@@ -130,8 +129,7 @@
             <h3 class="post_subtitle"> References </h3> 
             <ol>
               <p> 1. <a name="ref1" href="https://course.fast.ai/" target="_blank" style="text-decoration: underline;">FastAI course 2020 </a>  </p>
-              <p> 2. <a name="ref2" href="https://juejin.im/post/6865609905508876296" target="_blank" style="text-decoration: underline;">Woman, man, camera, TV</a>  (written in simplified Chinese) </p>
-              <p> 3. <a name="ref3" href="https://ethics.fast.ai/" target="_blank" style="text-decoration: underline;">Practical Data Ethics, FastAI</a> </p>
+              <p> 2. <a name="ref2" href="https://ethics.fast.ai/" target="_blank" style="text-decoration: underline;">Practical Data Ethics, FastAI</a> </p>
             </ol>
 
 
