@@ -1,0 +1,44 @@
+<footer class="site-footer">
+  <div class="wrapper">
+
+
+
+      <div class="footer-col-wrapper">
+
+       {% if site.footer.show_copyright == true %}
+        <div class="footer-col powered-by">
+            <p>
+              © {{ 'now' | date: "%Y"}} | Johnny K Lau. Last updated in Feb, MMXXI
+
+            <!--  powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y"}}   -->
+            </p>
+        </div>
+
+
+
+
+        <div class="footer-col social-links">
+       <!--   <h4>FOLLOW</h4>  -->
+
+          {% for follow in site.footer.follow %}
+         <!--   <span class="wrap-link"> -->
+
+              <a href="{{ follow.link }}" target="_blank">
+              <i class="{{ follow.icon }}"></i>
+             </a>
+
+          <!--  </span>  
+
+            {% assign mod = forloop.index | modulo: 2 %} {% if mod == 0 %}
+              <br />
+            {% endif %} -->
+
+          {% endfor %}
+        </div>
+
+
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
