@@ -1,0 +1,60 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Johnny Lau | HOME
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal homepage of Johnny Lau 
+#baseurl: "" # the subpath of the site
+url: "https://johnny.kinglau.info/" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+#google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: HOME
+      slug: /
+    - name: PROJECTS
+    - name: BLOG
+    - name: WORK
+footer:
+  show_copyright: True
+
+  follow:
+    - name: Email
+      icon: fa fa-envelope
+      link: mailto:johnny@kinglau.info
+    - name: LinkedIn
+      icon: fa fa-linkedin
+      link: https://www.linkedin.com/in/johnnykinglau/
+    - name: GitHub
+      icon: fa fa-github
+      link: https://github.com/jonkingseestheworld
+    - name: Orcid
+      icon: ai ai-orcid
+      link: http://orcid.org/0000-0002-3958-5582
+    - name: Google Scholar
+      icon: ai ai-google-scholar
+      link: https://scholar.google.com/citations?user=tnKoxtoAAAAJ&hl=en
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1

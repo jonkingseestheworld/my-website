@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <a class="toggle_icon"> <i id="toggle-mode" class="fa fa-adjust"></i> </a>
+
+      <a class="site-title" href="{{ "" | prepend: site.baseurl | prepend: site.url }}/">
+
+        <span style="font-weight: bold;">JOHNNY KING </span> LAU 
+        <img class="king-charact" src="{{ "/assets/img/king_character.png" | absolute_url }}" alt="{{ site.title }}" style="height: 28px;"/></a>
+
+      <nav class="site-nav-right">
+        <a href="#" class="menu-icon"></a>
+
+        <div class="menu">
+          {% for page in site.header.pages %}
+            {% if page.slug and page.slug != "" and page.slug != nil %}
+              {% assign page_link = page.slug %}
+            {% else %}
+              {% assign page_link = "/" | append: page.name | downcase %}
+            {% endif %}
+            {% assign page_link = page_link | absolute_url %}
+            <a class="page-link link-{{ page.name }}" href="{{ page_link }}">
+              {{ page.name }}
+            </a>
+          {% endfor %}
+        </div>
+      </nav>
+    </nav>
+  </div>
+</header>

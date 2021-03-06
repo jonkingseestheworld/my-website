@@ -1,0 +1,218 @@
+/**
+ * Site header
+ */
+.site-header {
+  border-bottom: 1px solid $grey-color;
+  min-height: 56px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @include media-query($on-mobile) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-nav {
+  overflow: hidden;
+}
+
+.site-nav a {
+  float: left; padding: 10px;
+}
+
+.toggle_icon {
+  font-size: 20px; 
+  padding-right: 5px;
+  margin-top: 5px; 
+  
+  &:hover {
+    color: $dark-main-orange-color;
+  }
+}
+
+
+
+
+
+.site-title {
+  font-size: 24px;
+  line-height: 45px;
+  letter-spacing: -1px;
+
+  &,
+  &:visited {
+    color: $grey-color-dark; 
+  };
+
+  /** added by jkl */                    
+  &:hover {
+    color: $text-hover-color;
+  }
+
+}
+
+
+/** added by jkl */
+.king-charact {
+  height: 28px;
+  padding-left: 10px;
+  margin-top: -5px;
+}
+
+
+
+
+/**
+ * Site nav
+ */
+.site-nav-right {
+  z-index: 10;
+  line-height: 56px;
+  
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+
+  padding-top: 10px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    font-size: 17px;
+    color: $main-green-color;
+    line-height: $base-line-height;
+    padding: 5px;
+    padding-bottom:10px;
+    border-radius: 5px;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 12px;
+    };
+
+    &:hover {
+    color: $text-hover-color;
+    background-color: #ddd;
+    };
+  }
+
+
+
+  @include media-query($on-mobile) {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 4px;
+      text-align: center;
+
+      background: #ffffff url($base-url + '/assets/img/menu.png') 6px 4px no-repeat;
+    }
+
+    .menu {
+      clear: both;
+      display: none;
+      background-color: #ffffff;
+      min-width: 10em;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      font-size: 16px;
+      display: block;
+      padding: 6px 16px;
+    };
+
+  }
+}
+
+
+.page-home .link-HOME, 
+.page-blog .link-BLOG,
+.page-projects .link-PROJECTS,
+.page-work .link-WORK {
+  font-weight: bold;
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid $grey-color;
+  padding-top: $spacing-unit /2;
+  padding-bottom: $spacing-unit /2;
+  text-align: right;
+
+  @include media-query($on-mobile) {
+    padding-top: 10px;
+  }
+}
+
+
+
+
+
+.powered-by {
+  float: left;
+  text-decoration: none;
+  font-size: 14px;
+  color: $grey-color-dark;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+
+.social-links {
+  padding-top: 5px;
+}
+
+.social-links a i {
+  font-size: 25px; padding: 0px 10px; 
+  color:$grey-color-dark;
+
+  &:hover {
+    color: $text-hover-color;
+    };
+}
+
+
+@include media-query($on-mobile) {
+  .footer-col {
+    float: none;
+    width: 100%;
+  }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+  min-height: 350px;
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+
+

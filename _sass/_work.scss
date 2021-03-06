@@ -1,0 +1,57 @@
+
+iframe {border: none;}
+
+
+.page-work .page-heading {
+	font-size: 22px; 
+	font-weight: bold;
+	color: $main-green-color; 
+	margin: 0px 0px 10px;
+}
+
+
+.work_title {
+  font-size: 22px; 
+  font-weight: bold;
+  color: $main-green-color; 
+  margin: 0px 0px 10px;
+  padding-top: 20px;
+  border-top: 2px solid $grey-color-light;
+}
+
+.sub-work-title {
+  text-align: left;
+  font-size: 18px; 
+  font-weight: bold;
+  color: $light-green-color;
+  margin-top:5px; 
+  margin-bottom:5px;
+}
+
+
+table {border-collapse:separate;
+  border-spacing: 0 20px;
+}
+
+
+tr {
+  text-align:left;
+}
+
+td {
+  text-align: left;
+  vertical-align: text-top;
+}
+
+
+.pub {
+  padding: 5px;
+  padding-left: 15px;
+}
+
+
+.date { 
+  width: 15%;
+  padding: 5px;
+  padding-left: 15px;
+}

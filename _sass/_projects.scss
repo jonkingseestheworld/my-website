@@ -1,0 +1,53 @@
+
+table {border-collapse:separate;
+}
+
+.projects-item {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 3em;
+  max-width: 800px;
+  padding-left: 10px;
+  margin-right: 0px;
+  border-right: 0px;
+
+}
+
+.projects-item td {
+  width: 50%;
+}
+
+
+.list-group-image {
+  text-align: center
+} 
+
+
+.projects-bubble {
+  float: left;
+  padding-right: 20px;
+  height: 210px; 
+  width: 300px;
+}
+
+.list-group-item {
+  display:table-cell;
+  vertical-align: middle;
+  padding: 0px;
+
+}
+
+.item-heading {
+	font-size: 24px;
+	color: $main-green-color;
+	margin: 0px;
+	padding:0px 0px;
+	padding-bottom: 5px;
+	line-height: 1.1;
+	font-weight: normal;
+}
+
+.item-text {
+	line-height: 1.4;
+	margin: 0px;
+}
